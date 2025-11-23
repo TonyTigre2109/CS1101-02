@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f3f3f3;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.nav-bar a {
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar .current {
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content p {
+    color: #444;
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+.abtMeText {
+    color: #222;
+    font-weight: 500;
+}
+
+.list-aboutme {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.project-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.project-table td, 
+.project-table th {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-top: 1px solid #ddd;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    margin: auto;
+    width: 350px;
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    padding: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 220px;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
